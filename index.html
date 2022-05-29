@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cover</title>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Saira Extra Condensed', sans-serif;
+        }
+
+        .main-content {
+            background: url(image/bg.png);
+            width: 525px;
+            height: 750px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+            margin-top: 2.5em;
+        }
+
+        .text-1 {
+            color: white;
+            font-size: 14pt;
+            text-align: center;
+            padding-top: 2.5em;
+            letter-spacing: 1px;
+            font-weight: 400;
+            word-spacing: 3px;
+        }
+
+        .text-2 {
+            color: #b1e9ff;
+            font-size: 20pt;
+            text-align: center;
+            letter-spacing: 2px;
+            word-spacing: 3px;
+
+        }
+
+        .title {
+            margin-top: -0.9em;
+            margin-left: .9em;
+            color: white;
+            font-size: 45pt;
+            text-align: center;
+            letter-spacing: 8px;
+            word-spacing: 20px;
+            line-height: 2.6em;
+        }
+
+        .text-3 {
+            color: #b1e9ff;
+            text-align: center;
+            margin-top: -3.5em;
+            letter-spacing: 2px;
+        }
+
+        .author {
+            color: #F8DF00;
+            text-align: center;
+            font-size: 45pt;
+            letter-spacing: 8px;
+            margin-left: .6em;
+        }
+
+        .img {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .img img {
+            width: 90px;
+            height: 90px;
+            margin-top: -14em;
+            margin-right: 1.5em;
+        }
+
+        .last-button {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5em;
+        }
+
+        .last-button button {
+            background-color: #b1e9ff;
+            font-size: 12pt;
+            border: 2px solid #F8DF00;
+            padding: .5em;
+            width: 11em;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+
+        .last-button button:hover {
+            background-color: #78d0f3;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .last-button button a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="texts">
+            <h4 class="text-1">"Astounding. Thrilling. Amazing!" ––GILLIAN FLYNN</h4>
+            <h2 class="text-2 font">#1 <i>NEW YORK TIMES</i> BESTSELLER</h2>
+            <h1 class="title">THE WOMAN <br> IN THE <br> WINDOW</h1>
+            <p class="text-3">A Novel</p>
+            <h1 class="author">A. J. FINN</h1>
+        </div>
+
+        <div class="img">
+            <img src="image/sticker.png" alt="Sticker">
+        </div>
+
+        <div class="last-button">
+            <a href="back_page.html"><button>Back Cover Page</button></a>
+            <a href="first_page.html"><button>Next Page</button></a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
